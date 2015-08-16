@@ -13,8 +13,12 @@ h1. Features
 * Select amount by pressing up/down arrows
 * Validate invalid inputs and replace by last valid value after a delay
 * Trigger update event when value changes
-* Option for default and min value
+* Option for min value
 * Unobtrusive
+
+h2. Amendments
+
+This version uses the current value of the form field and does not allow you to set a default value via jQuery (use html attributes).
 
 h1. License
 
